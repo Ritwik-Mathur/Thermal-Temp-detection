@@ -1,9 +1,8 @@
-
-#Thermal Vision Camera with Temperature Detection
+# Thermal Vision Camera with Temperature Detection
 
 This project is a Thermal Vision Camera that detects human face temperature using a webcam, applies a thermal filter, and matches the detected temperature with a database of diseases. The project uses OpenCV, Tkinter, and MySQL to capture, process, and analyze images.
 
-Features
+# Features
 
 Uses OpenCV to capture video frames from the webcam.
 
@@ -19,7 +18,7 @@ Displays results in a pop-up window.
 
 Saves captured images for later analysis.
 
-Technologies Used
+# Technologies Used
 
 Python (OpenCV, Tkinter, NumPy, PIL, MySQL Connector)
 
@@ -27,8 +26,11 @@ MySQL (Database for disease matching)
 
 OpenCV (For image processing and face detection)
 
+# Screenshots
+![Screenshot 2025-03-01 161214](https://github.com/user-attachments/assets/60006de6-4c75-4cda-848a-810303fe51a2)
 
-Usage
+
+# Usage
 
 The application will open a window displaying a real-time video feed.
 
@@ -38,16 +40,16 @@ Click the Capture button to capture the image and analyze the temperature.
 
 The system will match the detected temperature with diseases in the database and show results in a pop-up window.
 
-Notes
+# Notes
 
 This project simulates thermal imaging using OpenCV filters and does not replace actual thermal cameras.
 
 Temperature mapping is an approximation and should not be used for medical diagnosis.
 
-License
+# License
 
 This project is licensed under the MIT License.
 
-Author
+# Author
 
-Developed by Your Name. Feel free to contribute or raise issues!
+Developed by RITWIK MATHUR with collaboration with PRAGYA PARAMITA SAHOO. Feel free to contribute or raise issues!
